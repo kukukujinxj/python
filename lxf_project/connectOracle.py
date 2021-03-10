@@ -33,28 +33,3 @@ def export(connect, table):
     conn.close()
 
 
-# 10g
-
-# XS_BKS_XJB
-export('LWZCXT_EX/Dkff4kaPd1234@166.111.4.168:1521/db1_2', 'XS_BKS_XJB')
-# XS_YJS_XJB
-export('LWZCXT_EX/Dkff4kaPd1234@166.111.4.168:1521/db1_2', 'XS_YJS_XJB')
-# RY_ZZ_JBXX
-export('LWZCXT_EX/Dkff4kaPd1234@166.111.4.168:1521/db1_2', 'RY_ZZ_JBXX')
-
-# 12c
-
-# BIZ_UNIT
-export('LWZCXT_EX/Dkff4kaPdKK45@166.111.4.250:1521/thu12cpdb', 'BIZ_UNIT')
-
-# DM_GLBM
-export('LWZCXT_EX/Dkff4kaPdKK45@166.111.4.250:1521/thu12cpdb', 'DM_GLBM')
-
-# DM_PROJECT_TYPE
-export('LWZCXT_EX/Dkff4kaPdKK45@166.111.4.250:1521/thu12cpdb', 'DM_PROJECT_TYPE')
-
-# PAPER_PROJECT
-export('LWZCXT_EX/Dkff4kaPdKK45@166.111.4.250:1521/thu12cpdb', 'PAPER_PROJECT')
-
-# PAPER_PROJECT_MEMBER
-export('LWZCXT_EX/Dkff4kaPdKK45@166.111.4.250:1521/thu12cpdb', 'PAPER_PROJECT_MEMBER')
